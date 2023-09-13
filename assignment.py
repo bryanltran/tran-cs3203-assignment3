@@ -15,6 +15,9 @@ def product(arr):
 
     return(product)
 
+def reverse_array(arr):
+    return arr[::-1]
+
 
 def main():
     # Initialize an empty list to store the integers
@@ -40,7 +43,7 @@ def main():
     # Print the results
     print("Sum: " + str(sum(integer_list)))
     print("Product: " + str(product(integer_list)))
-
+    print("Reverse: " + str(reverse_array(integer_list)))
 
 
 if __name__ == "__main__":
